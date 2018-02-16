@@ -5,8 +5,13 @@ var Main = require('Main');
 
 //load foundation
 require('style!css!foundation-sites/dist/foundation.min.css'); 
+
 //style
 require('style!css!sass!applicationStyles');
+
+
+//style front
+require('style!css!app/styles/style.css');
 
 $(document).foundation();
 ReactDOM.render(

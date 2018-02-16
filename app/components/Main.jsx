@@ -1,5 +1,6 @@
 var React = require('react');
 var Nav = require('Nav');
+var Acessorio = require('Acessorio');
 
 
 var Main = React.createClass({
@@ -9,6 +10,7 @@ var Main = React.createClass({
                 <div>
                     <div>
                         <Nav/>
+                        <Acessorio/>
                         <p>Main. jsx rendered</p>
                         {this.props.children}
                     </div>
