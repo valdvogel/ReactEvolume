@@ -175,124 +175,77 @@ var Acessorio = React.createClass({
                             </ul>
                         </div>
                         
-                        <div className="col-sm-9 home_bottom">
-                            <h2 className="sub_title">REFERÊNCIAS</h2>
-                            <div className="clearfix"></div>
-                            <div className="row">
-                                <div className="carousel slide" data-ride="carousel" data-type="multi" data-interval="6000" id="myCarousel">
-                                    <div className="carousel-inner">
-                                        <div className="item active">
-                                            <div className="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src={require('app/img/l1.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src={require('app/img/l2.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l3.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l4.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l5.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l6.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l7.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l8.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src={require('app/img/l1.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src={require('app/img/l2.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l3.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l4.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l5.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l6.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l7.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src={require('app/img/l8.jpg')} className="img-responsive" alt="Reference"/></a>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <a className="left carousel-control" href="#myCarousel" data-slide="prev"><i className="glyphicon glyphicon-chevron-left"></i></a>
-                                    <a className="right carousel-control" href="#myCarousel" data-slide="next"><i className="glyphicon glyphicon-chevron-right"></i></a>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div className="col-sm-3">
-                            <h2 className="sub_title w10">CONTATO</h2>
-                            <div className="clearfix"></div>
-                            <div className="login-form-1">
-                                <form id="login-form" className="text-left">
-                                    <div className="login-form-main-message"></div>
-                                    <div className="main-login-form">
-                                        <div className="login-group">
-                                            <div className="form-group">
-                                                <label for="ad" className="sr-only">Nome</label>
-                                                <input type="text" className="form-control" id="ad" name="ad" placeholder="Nome"/>
-                                            </div>
-                                            <div className="form-group">
-                                                <label for="tel" className="sr-only">Telefone</label>
-                                                <input type="text" className="form-control" id="tel" name="tel" placeholder="Telefone"/>
-                                            </div>
-                                        </div>
-                                        <button type="submit" className="login-button"><i className="fa fa-chevron-right"></i></button>
-                                    </div>
-                                </form>
-                            </div>                            
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <footer className="site-footer">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-3 col-sm-6 col-xs-12 fbox">
+                    <h4>eVolume</h4>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue lectus diam, sit amet cursus massa efficitur sed. </p>
+                    <ul className="list-inline">
+                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>                        
+                    </ul>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-12 fbox">
+                    <h4>SERVIÇOS</h4>
+                    <ul className="big">
+                        <li><a href="#" title="">Title One</a></li>
+                        <li><a href="#" title="">Title Two</a></li>
+                        <li><a href="#" title="">Title Three</a></li>
+                        <li><a href="#" title="">Title Four</a></li>
+                        <li><a href="#" title="">Title Five</a></li>
+                        <li><a href="#" title="">Title Six</a></li>
+                        <li><a href="#" title="">Title Seven</a></li>
+                        <li><a href="#" title="">Title Eight</a></li>
+                    </ul>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-12 fbox">
+                    <h4>CONTENT</h4>
+                    <ul className="big">
+                        <li><a href="#" title="">Title One</a></li>
+                        <li><a href="#" title="">Title Two</a></li>
+                        <li><a href="#" title="">Title Three</a></li>
+                        <li><a href="#" title="">Title Four</a></li>
+                        <li><a href="#" title="">Title Five</a></li>
+                        <li><a href="#" title="">Title Six</a></li>
+                        <li><a href="#" title="">Title Seven</a></li>
+                        <li><a href="#" title="">Title Eight</a></li>
+                    </ul>
+                </div>
+                <div className="col-md-3 col-sm-6 col-xs-12 fbox">
+                    <h4>CONTATO NOS</h4>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><a href="tel:+902222222222"><span className="glyphicon glyphicon-earphone" aria-hidden="true"></span> +90 222 222 22 22</a></p>
+                    <p><a href="mailto:iletisim@agrisosgb.com"><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> mail@awebsitename.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4">
+                        <p className="pull-left">&copy; 2017 EVOLUME</p>
+                    </div>
+                    <div className="col-md-8">
+                        <ul className="list-inline navbar-right">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">MENU ITEM</a></li>
+                            <li><a href="#">MENU ITEM</a></li>
+                            <li><a href="#">MENU ITEM</a></li>
+                            <li><a href="#">MENU ITEM</a></li>
+                            <li><a href="#">MENU ITEM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </footer>
+
 
             </div>
 
